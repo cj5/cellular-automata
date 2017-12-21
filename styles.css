@@ -1,0 +1,28 @@
+body {  
+  font-family: 'Space Mono', Helvetica, sans-serif;
+  color: #0f1bff;
+}
+
+.wrapper, .row {
+  display: inline-block;
+  float: left;  
+}
+.row {
+  transition: 0.2s all ease-in-out;
+}
+.row div {
+  display: inline-block;
+  float: left;
+  width: 10px;
+  height: 10px;  
+  /*margin: 2px;*/
+}
+
+.row div.true {
+  background-color: #0f1bff;
+  background-color: rgba(15,27,255,0.1);
+}
+.row div.false {
+  background-color: rgba(15,27,255,0.05);
+  /*background-color: pink;*/
+}
